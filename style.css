@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #4Dadf7;
+    --accent-color-dark: #1d69a3;
+    --padding-inline-section: 20px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary-text-color);
+}
+
+body h1 {
+    font-size: 3rem;
+}
+
+body h2 {
+    font-size: 2rem;
+}
+
+body h3 {
+    font-size: 1.5rem;
+}
+
+body p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    color: white;
+    line-height: 1.8rem;
+}
+
+body a {
+    text-decoration: none;
+    display: inline-block;
+    color: var(--primary-text-color);
+}
+
+.container {
+    padding: 0 10%;
+}
+
+.top-banner {
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--accent-color);
+    background-image: url(assets/asset\ 32.png);
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: 300px;
+}
+
+.top-banner p {
+    font-size: 0.9rem;
+}
+
+nav * {
+    border: 1px solid black;
+}
+
+nav {
+    display: block;
+}
+
+nav .brand-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
